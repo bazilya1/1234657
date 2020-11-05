@@ -14,3 +14,4 @@ class Button:
     def reset(self):
         global a
         a = 0
+        print(a)
