@@ -1,18 +1,15 @@
 class Button:
-    global a
-    a = 0
+    def __init__(self):
+        self.a = 0
 
     def click(self):
-        global a
-        a += 1
-        print(a)
+        self.a += 1
+        print(self.a)
 
     def click_count(self):
-        global a
-        a -= 1
-        print(a)
+        self.a -= 1
+        print(self.a)
 
     def reset(self):
-        global a
-        a = 0
-        print(a)
+        self.a = 0
+        print(self.a)
